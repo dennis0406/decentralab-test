@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     fontSize: {
       xs: '10px',
-      sm: '13px',
+      sm: '12px',
+      base: '13px',
       '2xl': '24px',
     },
     extend: {

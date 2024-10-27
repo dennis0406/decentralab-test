@@ -9,6 +9,7 @@ const black = {
   
   const blue = {
     700: '#97CFFD',
+    800: '#AAEDFF',
   };
   
   const gray = {

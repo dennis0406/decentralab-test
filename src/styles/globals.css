@@ -21,27 +21,3 @@ body {
   background: var(--background);
   font-family: 'Anuphan';
 }
-
-
-/* Add these styles to your global CSS if using plain CSS */
-.tier-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: white;
-}
-
-.tier-1 { background-color: #c0c0c0; }
-.tier-2 { background-color: #00d084; }
-.tier-3 { background-color: #7c4dff; }
-.tier-4 { background-color: #ffab00; }
-.tier-5 { background-color: #536dfe; }
-.tier-6 { background-color: #ff4081; }
-
-.bg-dark-900 {
-  background-color: #1a1a1a;
-}
