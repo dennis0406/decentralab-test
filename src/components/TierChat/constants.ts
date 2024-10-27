@@ -1,4 +1,4 @@
-export const tiers = [
+export const TIERS = [
     {
       glyph: 'tier1',
       index: 15,
@@ -43,7 +43,7 @@ export const tiers = [
     }
   ];
 
-  export const glyphs = [
+  export const GLYPHS = [
     'tier1',
     'tier2',
     'tier3',
@@ -52,7 +52,7 @@ export const tiers = [
     'tier6',
   ] as const;
 
-  export const splineCHarts = [
+  export const SPLINE_CHARTS = [
     14.2, 14.3, 14.5, 14.6, 14.8, 14.9, 15.1, 15.2, 15.3, 15.4, 15.6, 15.7,
     15.9, 16, 16.2, 16.3, 16.4, 16.6, 16.7, 16.9, 17, 17.2, 17.3, 17.5, 17.7,
     17.8, 18, 18.2, 18.3, 18.5, 18.6, 18.8, 19, 19.2, 19.3, 19.5, 19.7, 19.8,

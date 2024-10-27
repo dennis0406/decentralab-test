@@ -22,7 +22,7 @@ const black = {
     600: '#DBDBDB',
     700: '#555555',
     800: '#757575',
-    900: '#323130',
+    900: '#777E90',
   };
   
   const purple = {
@@ -32,6 +32,7 @@ const black = {
   
   const white = {
     100: '#fff',
+    500: '#FCFCFD',
   };
   
   const red = {
