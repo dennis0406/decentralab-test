@@ -1,5 +1,7 @@
 import { FC } from 'react';
+
 import type { GlyphIconType } from '../types';
+
 const ArrowRight: FC<GlyphIconType> = ({ className, color }) => {
   return (
     <svg
