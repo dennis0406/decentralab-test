@@ -7,11 +7,25 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      xs: '10px',
+      sm: '13px',
+      '2xl': '24px',
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Anuphan: ['Anuphan', 'serif'],
+       },
+    },
+    colors: {
+      black: '#3EA2F400',
+      blackPurple: '#423EF41A',
+      blueLight: '#97CFFD',
+      darkBlue: '#313856',
     },
   },
   plugins: [],
