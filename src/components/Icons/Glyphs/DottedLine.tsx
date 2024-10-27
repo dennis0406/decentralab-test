@@ -5,10 +5,10 @@ import type { GlyphIconType } from '../types';
 const DottedLine: FC<GlyphIconType> = ({ className, color }) => {
   return (
     <svg
-      width="373"
+      width="362"
       className={`object-contain duration-500 ${className}`}
-      height="189"
-      viewBox="0 0 373 189"
+      height="180"
+      viewBox="0 0 362 180"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

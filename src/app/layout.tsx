@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Decentralab',
+  title: "Decentralab's test",
   description: "Decentralab's test by laple",
 };
 

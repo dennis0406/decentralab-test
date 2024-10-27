@@ -3,7 +3,7 @@ import type { GlyphsType } from './Glyphs';
 export type IconsType = {
   className?: string;
   color?: string;
-  glyph?: GlyphsType['glyph'] | unknown;
+  glyph?: GlyphsType['glyph'];
   onClick?: React.MouseEventHandler<SVGSVGElement>;
 };
 

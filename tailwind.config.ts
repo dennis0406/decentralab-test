@@ -24,8 +24,13 @@ const config: Config = {
     },
     colors: {
       black: '#3EA2F400',
+      white: '#ffff',
+      gray: '#CFCFCF00',
       blackPurple: '#423EF41A',
       blueLight: '#97CFFD',
+      blue: '#264F95',
+      blueStroke: '#4EAEFD',
+      blueDarkOpacity: '#0B0E1800',
       darkBlue: '#313856',
     },
   },

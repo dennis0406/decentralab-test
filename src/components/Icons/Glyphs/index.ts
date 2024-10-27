@@ -1,5 +1,6 @@
 import ArrowRight from './ArrowRight';
 import DottedLine from './DottedLine';
+import GraphLine from './GraphLine';
 import Tier1 from './Tier1';
 import Tier2 from './Tier2';
 import Tier3 from './Tier3';
@@ -16,6 +17,7 @@ const glyphs = {
   tier4: Tier4,
   tier5: Tier5,
   tier6: Tier6,
+  graphLine: GraphLine,
 };
 
 export type GlyphsType = {
