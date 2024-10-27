@@ -4,11 +4,12 @@ import Icons from '@/components/Icons';
 import TierChat from '@/components/TierChat';
 
 import { colors } from '@/styles/colors';
+import UseGuide from '@/components/UseGuide';
 
 const Home = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row justify-between items-center  bg-gradient-to-r from-black to-blackPurple blur-[5.62] border-b border-b-darkBlue gap-10">
+      <div className="flex flex-col lg:flex-row justify-between items-center  bg-gradient-to-r from-black to-blackPurple blur-[5.62] border-b border-b-darkBlue">
         <div className="px-10 gap-4 flex flex-col w-[441px]">
           <p className="font-bold text-2xl break-words">
             Unlock Rewards with the Copin Referral Program
@@ -31,6 +32,7 @@ const Home = () => {
         </div>
         <TierChat />
       </div>
+      <UseGuide/>
     </div>
   );
 };

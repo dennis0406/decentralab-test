@@ -4,13 +4,13 @@ import Icons from '../Icons';
 import SplineChart from '../SplineChart';
 
 import { colors } from '@/styles/colors';
-import { glyphs, splineCHarts, tiers } from './constants';
+import { GLYPHS, SPLINE_CHARTS, TIERS } from './constants';
 
 const TierChat = () => {
-  const [selectedTier, setSelectedTier] = useState(tiers[4]);
+  const [selectedTier, setSelectedTier] = useState(TIERS[4]);
 
   const handleVerticalLineClick = (val: number) => () => {
-    const tempSelectedTier = tiers.filter(
+    const tempSelectedTier = TIERS.filter(
       (item) => item.index + 10 > val && item.index - 10 < val
     );
     if (tempSelectedTier.length > 0) {
@@ -23,13 +23,13 @@ const TierChat = () => {
       <div className="relative">
         <Icons glyph="dottedLine" color={colors.blue[800]} />
         <SplineChart
-          data={splineCHarts}
+          data={SPLINE_CHARTS}
           width={362}
           height={180}
           className="absolute top-0 left-0"
         />
         <div className="flex absolute bottom-0 left-0 items-end">
-          {splineCHarts.map((item, index) => (
+          {SPLINE_CHARTS.map((item, index) => (
             <div
               key={index.toString()}
               className={`bg-gradient-to-b from-blue to-blueDarkOpacity ${index.toString()} relative`}
@@ -59,7 +59,7 @@ const TierChat = () => {
               key={index.toString()}
             >
               <Icons
-                glyph={glyphs[index]}
+                glyph={GLYPHS[index]}
                 className={[4, 5].includes(index) ? '-mt-1' : ''}
               />
               <span className="text-sm font-normal">{`Tier ${index + 1}`}</span>
