@@ -34,7 +34,7 @@ const SplineChart = ({
     gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
 
     ctx.strokeStyle = gradient;
-    ctx.lineWidth = 0.77;
+    ctx.lineWidth = 2;
 
     const spacing = width / (data.length - 1);
 
