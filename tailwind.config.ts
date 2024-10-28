@@ -50,6 +50,7 @@ const config: Config = {
       darkBlue300: '#15264C',
       darkBlue400: '#1D2A57',
       darkBlue500: '#B3D7FF',
+      darkBlue600: '#546286',
       transparent: '#ffffff00',
     },
   },

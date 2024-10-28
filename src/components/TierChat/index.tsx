@@ -51,9 +51,11 @@ const TierChat = () => {
                     <p>F1 (Commission): {selectedTier.f1}%</p>
                     <p>F2 (Commission): {selectedTier.f2}%</p>
                   </div>
-                  <div style={{ height: `${(item + 40).toFixed(0)}px`, width: '0.999999px' }} className='bg-white z-0 absolute top-0 left-0'></div>
+                  <div style={{ height: `${(item + 40).toFixed(0)}px`, width: '0.999999px' }} className='bg-white z-20 absolute top-0 left-0'></div>
 
-                  <div style={{ height: `${(item + 45).toFixed(0)}px`, width: '16px' }} className='bg-darkBlue500 z-0 absolute top-0 left-0 -translate-x-[50%] blur-sm'></div>
+                  <div style={{ height: `${(item + 45).toFixed(0)}px`, width: ['tier1', 'tier2', 'tier3'].includes(selectedTier.glyph) ? '16px' : '26px' }} className={`bg-darkBlue500 z-10 absolute top-0 left-0 -translate-x-[50%] ${['tier1', 'tier2', 'tier3'].includes(selectedTier.glyph) ? 'blur-sm': 'blur-md'}`}></div>
+                  <div style={{ height: `${(item + 45).toFixed(0)}px`, width: ['tier1', 'tier2', 'tier3'].includes(selectedTier.glyph) ? '46px' : '86px' }} className='[clip-path:polygon(27%_0%,75%_0%,56%_100%,45%_100%)] absolute top-0 left-0 -translate-x-[50%] z-0 bg-gradient-to-t from-[#1E94F4] to-[#0621CE00]'></div>
+                  <div style={{ height: `${(item + 45).toFixed(0)}px`, width: ['tier1', 'tier2', 'tier3'].includes(selectedTier.glyph) ? '26px' :'46px' }} className='[clip-path:polygon(27%_0%,75%_0%,56%_100%,45%_100%)] absolute top-0 left-0 -translate-x-[50%] z-0 bg-gradient-to-t from-[#061ACE] to-[##4EAEFD00]'></div>
                 </>
               )}
             </div>

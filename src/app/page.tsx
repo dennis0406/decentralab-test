@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-between items-center  bg-gradient-to-r from-black to-blackPurple blur-[5.62] border-b border-b-darkBlue">
-        <div className="px-10 gap-4 flex flex-col w-[441px]">
+        <div className="px-10 gap-4 flex flex-col w-full md:max-w-[441px] py-10 md:py-0">
           <p className="font-bold text-2xl break-words">
             Unlock Rewards with the Copin Referral Program
           </p>
